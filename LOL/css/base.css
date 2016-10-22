@@ -1,0 +1,73 @@
+@charset UTF-8;
+
+/**
+* 公共样式
+* @author FenG
+*/
+/*格式化样式*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,figure {margin:0;padding:0;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img {border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul {list-style:none}
+caption,th {text-align:left}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal}
+q:before,q:after {content:''}
+abbr,acronym {border:0}
+input {vertical-align: middle;}
+a {text-decoration: none;}
+.clearfix {*+zoom:1;}
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+/*公共样式*/
+
+/*精灵图*/
+.page-logo,.page-header-guide,.icon-guide-package,.icon-guide-video,.icon-guide-match,.icon-guide-info,.icon-guide-khd,.icon-video,.icon-submit,.icon-match,.icon-service,.icon-heroSkin,.icon-entrance,.icon-activity,.service-aside-more,.news-aside-more,.match-cont-asideLink2,.header-guide-list a:hover,.icon-entrance-one,.icon-entrance-two,.icon-entrance-three,.icon-entrance-four,.icon-entrance-five,.icon-entrance-six,.icon-entrance-seven,.icon-entrance-eight {background: url(../images/public-spr.png) no-repeat;}
+/*头部下栏logo*/
+.icon-guide-package,.icon-guide-video,.icon-guide-match,.icon-guide-info,.icon-guide-khd {display: block;width: 40px;height: 40px;margin: 0 auto;}
+/*主体标题logo*/
+.icon-video,.icon-submit,.icon-match,.icon-service,.icon-heroSkin,.icon-entrance,.icon-activity {display: inline-block;width: 40px;height: 40px;margin-right: 5px;vertical-align: -10px;}
+/*主体标题*/
+.main-title {float: left;font-size: 25px;line-height: 40px;color: #555;}
+/*主体侧栏通用*/
+.aside-more {float: right;height: 30px;line-height: 30px;padding: 0 10px;margin-left: 10px;background: #efefef;border: 2px solid #efefef;border-radius: 25px;color: #777;font-size: 14px;margin-top: 3px;}
+/*主体导航栏*/
+.desc-nav {height: 36px;line-height: 36px;border-bottom: 4px solid #ebecec;position: relative;}
+.desc-navList li {float: left;height: 36px;line-height: 36px;cursor: pointer;color: #666;font-size: 16px;text-align: center;}
+.desc-navList {position: relative;height: 36px;}
+/*按钮样式*/
+.desc-navList .current {color: #00ab88;font-weight: bold;border-bottom: 4px solid #00ab88;}
+/*···*/
+.allmore {width: 36px;height: 36px;background-position: -602px -42px;}
+/*通用内容条*/
+.allItem {height: 28px;line-height: 28px;display: block;position: relative;padding-right: 50px;font-size: 14px;overflow: hidden;}
+/*右侧日期*/
+.date {position: absolute;top: 0;right: 0;line-height: 24px;color: #9BA0AD;}
+/*快速入口icon*/
+.icon-entrance-one,.icon-entrance-two,.icon-entrance-three,.icon-entrance-four,.icon-entrance-five,.icon-entrance-six,.icon-entrance-seven,.icon-entrance-eight {display: block;width: 40px;height: 36px;margin: 0 auto;}
+/*html5兼容ie8-*/
+article,footer,header,section,footer,nav,figure,aside {display:block}
+.itemOn {background:#36AB87;color: #fff;font-weight: bold;}
+/*文字排版、颜色*/
+.link-col {color: #000;}
+.fb{font-weight:bold}
+.fn{font-weight:normal}
+.t2{text-indent:2em}
+.unl{text-decoration:underline;}
+.no_unl{text-decoration:none;}
+.c81 {color:#818181;}
+/*定位*/
+.abs-right{position:absolute;right:0}
+.zoom{zoom:1}
+.hidden{visibility:hidden}
+.none{display:none}
+.fl {float: left;}
+.fr {float: right;}
+
+/*长度高度*/
+
+/*边距*/
+.mb50{margin-bottom: 50px;}
+.page-main-l .hm {height: 40px;margin-bottom: 15px;}
+.page-main-r .hm {height: 40px;line-height: 40px;margin-bottom: 15px;}
+/*文字*/
+.fz16{font-size: 16px;}
